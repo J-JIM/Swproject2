@@ -16,7 +16,7 @@ void loop() {
 
     pinMode(PIN_LED, toggle);
     toggle = !toggle;
-    delay(200);
+    delay(100);
     if(count == 10){
       break;
     }
